@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e-Commerce Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="top-nav-bar">
+		<div class="search-box">
+			<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+			<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+			<img src="images/logo3.jpg" class="logo">
+			<input type="text" name="" class="form-control">
+			<span class="input-group-text">
+				<i class="fa fa-search"> </i>  
+			</span>
+		</div>
+		<div class="menu-bar">
+		<ul>
+			<li><a href="#"> <i class="fa fa-shopping-basket"></i>basket</a></li>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#">Log In</a></li>
+		</ul>	
+		</div>
+	</div>
+<section class="header"> 
+	<div class="side-menu" id="side-menu">
+	<ul>
+		<li> <i class="fa fa-mobile"></i> Telephones <i class="fa fa-angle-right"></i>
+              <ul>
+               	 <li>Samsung</li>
+               	<a href="product.html"> <li style="color: #1a1aff">Iphone</li></a>
+                 <li>Xiaomi</li>
+               	 <li>Nokia</li>
+              </ul>
+		</li>
+		<li>   <i class="fa fa-desktop"></i> Computers<i class="fa fa-angle-right"></i>
+             <ul>
+               	<li>Apple</li>
+               	<li>HP</li>
+               	<li>Lenovo</li>
+               	<li>Asus</li>
+             </ul>
+		</li>
+		<li>  <i class="fa fa-gamepad"></i> Game<i class="fa fa-angle-right"></i>
+              <ul>
+               	<li>Playstation</li>
+               	<li>Joystick</li>
+               	<li>Game Discs</li>
+              </ul>
+		</li>
+      
+    <li> <i class="fa fa-tablet"></i> Tablet <i class="fa fa-angle-right"></i>
+              <ul>
+                <li>Huawei</li>
+                <li>Samsung</li>
+                <li>Apple</li>
+                <li>Lenovo</li>
+              </ul>
+    </li>
+		<li> <i class="fa fa-camera"></i> Photo and Video<i class="fa fa-angle-right"></i>
+              <ul>
+               	<li>Canon</li>
+               	<li>Nikon</li>
+               	<li>Fujifilm</li>
+               	<li>Sony</li>
+              </ul>
+		</li>
+		<li> <i class="fa fa-tv"></i> Tv, audio and radio<i class="fa fa-angle-right"></i>
+              <ul>
+               	<li>Samsung</li>
+               	<li>Mitsubishi</li>
+               	<li>Sony</li>
+               	
+              </ul>
+		  </li>
+		</ul>
+	</div>
+	<div class="slider">
+		<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/computer.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/mobile.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/tv.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/photo.jpg" class="d-block w-100">
+    </div>
+  </div>
+    <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+     <li data-target="#slider" data-slide-to="3"></li>
+  </ol>
+</div>
+	</div>
+	</section>
+<!--------featured-categories------->
+<section class="featured-categories">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/watch1.jpg" alt="tt">
+      </div> 
+      <div class="col-md-4">
+        <img src="images/joystick.jpg" alt="tt">
+      </div>  
+      <div class="col-md-4">
+        <img src="images/tablet.jpg" alt="tt">
+      </div> 
+      </div> 
+    </div>
+  </div>
+</section>
+<!------ On Sale product--------->
+<section class="on-sale">
+   <div class="container">
+    <div class="title-box">
+      <h2>On Sale</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/onsale1.jpg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Fitness Watch</h3>
+          <h5>$700.00</h5>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/onsale2.jpg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Tablet</h3>
+          <h5>$350.00</h5>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/onsale3.jpg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <h3>Classic Watch</h3>
+          <h5>$600.00</h5>
+        </div>
+      </div>
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/onsale4.jpg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Headset</h3>
+          <h5>$100.00</h5>
+        </div>
+      </div>
+   </div>
+</div>
+</section>
+
+
+<!----------New Products----------->
+<section class="new-products">
+  <div class="container">
+    <div class="title-box">
+      <h2>New Arrivals</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals1.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Tablet</h3>
+          <h5>$400.00</h5>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals2.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Phone</h3>
+          <h5>$300.00</h5>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals3.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <h3>Computer</h3>
+          <h5>$600.00</h5>
+        </div>
+      </div>
+        <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals4.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Camera</h3>
+          <h5>$800.00</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals5.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+<div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Photo</h3>
+          <h5>$400.00</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals6.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+<div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Phone</h3>
+          <h5>$900.00</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals7.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+<div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Tv</h3>
+          <h5>$1000.00</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/arrivals8.jpeg">
+          <div class="overlay-right">
+
+            <button type="button" class="btn btn-secondary" title="Quick Shop">    
+             <i class="fa fa-eye"></i>
+            </button>
+
+              <button type="button" class="btn btn-secondary" title="Add-to-Wishlist"> 
+             <i class="fa fa-heart-o"></i>
+            </button>
+      
+            <button type="button" class="btn btn-secondary" title="Add-to-Cart"> 
+             <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+<div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <h3>Watch</h3>
+          <h5>$550.00</h5>
+        </div>
+      </div>
+</section>
+
+<!--------Website features------->
+<section class="website-features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 feature-box">
+        <img src="images/satisfaction.png">
+        <div class="feature-text">
+          <p><b>100% Orginal items</b>are available at company</p>
+        </div>
+    </div>
+     <div class="col-md-3 feature-box">
+        <img src="images/guarantee.jpg">
+        <div class="feature-text">
+          <p><b>Return 30 days</b> of recieving your order</p>
+        </div>
+    </div>
+      <div class="col-md-3 feature-box">
+        <img src="images/free-delivery.png">
+        <div class="feature-text">
+          <p><b>Get free delivery for every</b> order on more than price.</p>
+        </div>
+    </div>
+   
+    <div class="col-md-3 feature-box">
+        <img src="images/card.png">
+        <div class="feature-text">
+          <p><b>Pay online through multiple</b> payment options (card payment/Net banking)</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-----------Footer--------->
+<section class="footer">
+  <div class="container text-center">
+    <div class="row">
+        <div class="col-md-3">
+           <h1>Useful Links</h1>
+           <p>Privacy Policy</p>
+           <p>Terms of Use</p>
+           <p>Return Policy</p>
+           <p>Discount Coupons</p>
+         </div>
+
+          <div class="col-md-3">
+               <h1>Company</h1>
+               <p>About Us</p>
+               <p>Contact Us</p>
+               <p>Career</p>
+               <p>Affiliate</p>
+         </div>
+
+
+          <div class="col-md-3">
+               <h1>Follow Us On</h1>
+               <p><i class="fa fa-facebook-official"></i> Facebook</p>
+               <p> <i class="fa fa-youtube-play"></i> Youtube</p>
+               <p> <i class="fa fa-linkedin"> </i> Linkedin</p>
+               <p> <i class="fa fa-twitter"></i> Twitter</p>
+         </div>
+         <div class="col-md-3 footer-image">
+           <h1>Download App</h1>
+           <img src="images/app-logo.png">
+         </div>
+     </div>
+     <hr>
+     <p class="copyright">Made with <i class="fa fa-code"></i> by <a href="https://www.linkedin.com/in/toghrul-mirzayev-425505202/" target="_blank"> Toghrul Mirzayev </a> <img src="images/mr.toghrul.png"  style="background-color: white; width: 100px;"></p>
+  </div>
+</section>
+
+
+
+	<script> 
+		function openmenu()
+		{
+			document.getElementById("side-menu").style.display="block";
+			document.getElementById("menu-btn").style.display="none";
+			document.getElementById("close-btn").style.display="block";
+		}
+		function closemenu()
+		{
+			document.getElementById("side-menu").style.display="none";
+			document.getElementById("menu-btn").style.display="block";
+			document.getElementById("close-btn").style.display="none";
+		}
+	</script>
+</body>
+</html>
